@@ -1,0 +1,115 @@
+body{
+	background: #e2e2e2;
+}
+a{
+	text-decoration: none;
+}
+.comWidth{
+	width: 1000px;
+	margin: 0 auto;
+
+}
+
+.header{
+	margin-top: 50px;
+	background: #fff;
+	height: 120px;
+}
+.leftArea{
+	float: left;
+}
+.logo{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.logo h1 a{
+	color: black;
+}
+
+.logo h1,p{
+	margin:0;
+}
+
+.logo h1 a:hover{
+	color: red;
+}
+.rightArea{
+	float: right;
+}
+.nav ul{
+	list-style-type: none;
+}
+
+.nav ul li{
+	float: left;
+	margin-right: 12px;
+	line-height: 120px;
+}
+.nav ul li a{
+	text-decoration: none;
+}
+
+
+.banner{
+	height: 416px;
+	width: 1000px;
+	position: relative;
+}
+
+.feature-slider{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+}
+.feature-slider img{
+	width: 100%;
+}
+
+.slider-title{
+	position: absolute;
+	top: 200px;
+	left: 40px;
+	background: #fb5d5d;
+	padding:8px;
+	font-size: 24px;
+	color: #fff;
+}
+.slider-wraper{
+	position: absolute;
+	top: 260px;
+	left: 40px;
+	background: rgba(226,226,226,0.56);
+	width: 360px;
+	padding: 0 8px;
+	color: #dadada;
+}
+
+.promo-box{
+	height: 120px;
+	width: 1000px;
+	background: #fb5d5d;
+}
+
+.inner-wrap{
+	display: inline-block;
+}
+
+.promo-wrap{
+	float: left;
+	color: #fff;
+	padding:23px;
+}
+.promo-title{
+	font-size: 32px;
+	
+}
+.promo-action{
+	color: #fff;
+	border:2px solid #fff;
+	padding: 8px;
+	float: right;
+	margin-top: 40px;
+	margin-left: 30px;
+}
